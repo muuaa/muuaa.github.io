@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.muuaa.bettertogether",
+      "sha256_cert_fingerprints": ["9D:4E:9F:41:ED:2C:93:59:23:8E:0D:CC:8B:C4:43:8F:FD:98:BA:BE:5E:0D:94:BD:BE:BB:4A:D3:E9:7A:5A:C9"]
+    }
+  }
+]
