@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Better Together</title>
+<style>html,body{margin:0;height:100%;background:#07080d;color:#aab1c2;font:15px system-ui,sans-serif;display:grid;place-items:center}</style>
+</head><body>
+<p>Connecting Google Calendar…</p>
+<script>
+  // Google sends you back here after you allow access; hand the answer to the app's server,
+  // which finishes connecting and returns you to the app.
+  location.replace('https://kpppglfhwbcztcfhopcz.supabase.co/functions/v1/google/callback' + location.search);
+</script>
+</body></html>
